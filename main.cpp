@@ -44,7 +44,7 @@ namespace TelCoColorCoder
         MajorColor majorColor = 
             (MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
         MinorColor minorColor =
-            (MinorColor)(zeroBasedPairNumber % numberOfMajorColors);
+            (MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
         return ColorPair(majorColor, minorColor);
     }
     int GetPairNumberFromColor(MajorColor major, MinorColor minor) {
