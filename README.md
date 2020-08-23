@@ -1,0 +1,1 @@
+# TelCo.Modular.ColorCoder
